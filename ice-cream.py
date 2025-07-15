@@ -11,7 +11,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-plt.figure(figsize=(100, 6))
+plt.figure(figsize=(12, 6))
 sns.barplot(x='Day', y='Ice Cream Sales', data=df )
 plt.title('Ice Cream Sales per Day')
 plt.xlabel('Day of the Week')
